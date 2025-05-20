@@ -1,0 +1,23 @@
+{
+  "modelPath": "models/ggml-tiny.en.bin",
+  "language": "en",
+  "nThreads": "4",
+  "stepMs": "3000",
+  "lengthMs": "10000",
+  "keepMs": 200,
+  "captureId": 1,
+  "maxTokens": 32,
+  "audioCtx": 0,
+  "beamSize": -1,
+  "vadThreshold": "0.6",
+  "freqThreshold": 100,
+  "translate": true,
+  "noFallback": false,
+  "printSpecial": false,
+  "noContext": true,
+  "noTimestamps": true,
+  "tinyDiarize": true,
+  "saveAudio": false,
+  "useGpu": true,
+  "flashAttn": false
+}
